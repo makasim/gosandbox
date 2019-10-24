@@ -5,7 +5,7 @@ import (
 	"github.com/tidwall/sjson"
 )
 
-type UserFunc func(data data.Data, cancel <-chan struct{}) (data.Data, error)
+type UserFunc func(data Data, cancel <-chan struct{}) (Data, error)
 
 type Data struct {
 	json string

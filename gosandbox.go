@@ -11,7 +11,7 @@ type Data struct {
 	json string
 }
 
-func NewData(json string) Data {
+func New(json string) Data {
 	return Data{
 		json: json,
 	}
